@@ -375,7 +375,7 @@ if __name__ == "__main__":
     metro.baglanti_ekle("M4", "T3", 2)  # Gar transfer
 
     # Optional: overwrite edge weights with Google Maps real durations.
-    api_key = os.getenv("GOOGLE_MAPS_API_KEY", "AIzaSyAiwJz5P8Fa-tr9HmRWZxr8FQbCjBfBPgI").strip()
+    api_key = os.getenv("GOOGLE_MAPS_API_KEY", "").strip()
     if api_key:
         try:
             updated_edges = metro.update_edge_weights_with_google(api_key=api_key)

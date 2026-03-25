@@ -81,12 +81,6 @@ Kod aşağıdaki senaryolar ile test edilmiştir ve sonuçları proje_cıktısı
 
 Kod çalıştırıldığında da test senaryolarının doğru çıktıları gösterilecektir.
 
-## Projeyi Geliştirme Fikirleri
-
-- **Görselleştirme:** Metro ağını grafiksel olarak göstermek için `networkx` ve `matplotlib` kullanılabilir.
-- **Gerçek Harita Entegrasyonu:** Google Maps veya OpenStreetMap verileri ile metro hattını gerçek zamanlı entegrasyon yaparak çalışmak.
-- **Dinamik Veri Kullanımı:** Metro yoğunluğuna ve sefer saatlerine göre **dinamik** rota planlaması yapma.
-
 ## Google Maps API (Gerçek Zamanlı Veri)
 Bu proje, gerçek dünya seyahat sürelerini kullanmak için Google Maps Platform üzerinden **Geocoding** ve **Directions (Transit/Subway)** verilerini opsiyonel olarak kullanır.
 
@@ -98,6 +92,14 @@ Bu proje, gerçek dünya seyahat sürelerini kullanmak için Google Maps Platfor
 - Program, API anahtarı varsa çalışırken `google_maps_cache.json` dosyasına önbellek kaydeder (yeniden istek atmayı azaltır ve maliyeti düşürür).
 
 Anahtar verilmezse (ortam değişkeni yoksa) proje mevcut hardcoded metro süreleriyle çalışmaya devam eder.
+
+## Projeyi Geliştirme Fikirleri
+
+- **Görselleştirme:** Metro ağını grafiksel olarak göstermek için `networkx` ve `matplotlib` kullanılabilir.
+- **Gerçek Harita Entegrasyonu:** Google Maps veya OpenStreetMap verileri ile metro hattını gerçek zamanlı entegrasyon yaparak çalışmak.
+- **Dinamik Veri Kullanımı:** Metro yoğunluğuna ve sefer saatlerine göre **dinamik** rota planlaması yapma.
+
+
 
 
 
