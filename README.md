@@ -87,6 +87,18 @@ Kod çalıştırıldığında da test senaryolarının doğru çıktıları gös
 - **Gerçek Harita Entegrasyonu:** Google Maps veya OpenStreetMap verileri ile metro hattını gerçek zamanlı entegrasyon yaparak çalışmak.
 - **Dinamik Veri Kullanımı:** Metro yoğunluğuna ve sefer saatlerine göre **dinamik** rota planlaması yapma.
 
+## Google Maps API (Gerçek Zamanlı Veri)
+Bu proje, gerçek dünya seyahat sürelerini kullanmak için Google Maps Platform üzerinden **Geocoding** ve **Directions (Transit/Subway)** verilerini opsiyonel olarak kullanır.
+
+- Google Maps API anahtarını ortam değişkeni olarak verin:
+  - `GOOGLE_MAPS_API_KEY`
+- Google Cloud Console'da aşağıdaki API'leri etkinleştirin:
+  - `Geocoding API`
+  - `Directions API`
+- Program, API anahtarı varsa çalışırken `google_maps_cache.json` dosyasına önbellek kaydeder (yeniden istek atmayı azaltır ve maliyeti düşürür).
+
+Anahtar verilmezse (ortam değişkeni yoksa) proje mevcut hardcoded metro süreleriyle çalışmaya devam eder.
+
 
 
 

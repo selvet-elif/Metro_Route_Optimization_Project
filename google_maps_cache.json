@@ -1,0 +1,114 @@
+{
+  "geocode": {
+    "Kızılay, Ankara, Turkey": {
+      "lat": 39.9308715,
+      "lng": 32.8573234
+    },
+    "Ulus, Ankara, Turkey": {
+      "lat": 39.939605,
+      "lng": 32.8509969
+    },
+    "Demetevler, Ankara, Turkey": {
+      "lat": 39.96502770000001,
+      "lng": 32.7830574
+    },
+    "OSB, Ankara, Turkey": {
+      "lat": 39.9333635,
+      "lng": 32.8597419
+    },
+    "AŞTİ, Ankara, Turkey": {
+      "lat": 39.9186871,
+      "lng": 32.8100028
+    },
+    "Sıhhiye, Ankara, Turkey": {
+      "lat": 39.928155,
+      "lng": 32.8550664
+    },
+    "Gar, Ankara, Turkey": {
+      "lat": 39.93425999999999,
+      "lng": 32.84199
+    },
+    "Batıkent, Ankara, Turkey": {
+      "lat": 39.968209,
+      "lng": 32.726748
+    },
+    "Keçiören, Ankara, Turkey": {
+      "lat": 40.0210623,
+      "lng": 32.831015
+    }
+  },
+  "directions": {
+    "K1|K2|subway": {
+      "duration_seconds": 797,
+      "duration_minutes": 14
+    },
+    "K2|K1|subway": {
+      "duration_seconds": 809,
+      "duration_minutes": 14
+    },
+    "K2|K3|subway": {
+      "duration_seconds": 1321,
+      "duration_minutes": 23
+    },
+    "K3|K2|subway": {
+      "duration_seconds": 1382,
+      "duration_minutes": 24
+    },
+    "K3|K4|subway": {
+      "duration_seconds": 2285,
+      "duration_minutes": 39
+    },
+    "K4|K3|subway": {
+      "duration_seconds": 2047,
+      "duration_minutes": 35
+    },
+    "M1|M2|subway": {
+      "duration_seconds": 2975,
+      "duration_minutes": 50
+    },
+    "M2|M1|subway": {
+      "duration_seconds": 2893,
+      "duration_minutes": 49
+    },
+    "M2|M3|subway": {
+      "duration_seconds": 461,
+      "duration_minutes": 8
+    },
+    "M3|M2|subway": {
+      "duration_seconds": 539,
+      "duration_minutes": 9
+    },
+    "M3|M4|subway": {
+      "duration_seconds": 695,
+      "duration_minutes": 12
+    },
+    "M4|M3|subway": {
+      "duration_seconds": 518,
+      "duration_minutes": 9
+    },
+    "T1|T2|subway": {
+      "duration_seconds": 873,
+      "duration_minutes": 15
+    },
+    "T2|T1|subway": {
+      "duration_seconds": 962,
+      "duration_minutes": 17
+    },
+    "T2|T3|subway": {
+      "duration_seconds": 1802,
+      "duration_minutes": 31
+    },
+    "T3|T2|subway": {
+      "duration_seconds": 2105,
+      "duration_minutes": 36
+    },
+    "T3|T4|subway": {
+      "duration_seconds": 2611,
+      "duration_minutes": 44
+    },
+    "T4|T3|subway": {
+      "duration_seconds": 3492,
+      "duration_minutes": 59
+    }
+  }
+}
